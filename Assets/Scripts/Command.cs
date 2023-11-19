@@ -27,7 +27,10 @@ namespace CommandPattern
             objTransform.position += direction * Speed;
         }
 
-        protected virtual void Rotate(Transform objTransform) { }
+        protected virtual void Rotate(Transform objTransform, Vector3 angles) 
+        {
+            objTransform.localEulerAngles = angles;
+        }
 
         //Update speed on runtime
         public void UpdateSpeed(float speed)
