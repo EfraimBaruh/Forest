@@ -5,11 +5,11 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 5
+    smallestOccluder: 1
     smallestHole: 0.25
-    backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+    backfaceThreshold: 50
+  m_SceneGUID: fd2506574a1a1814e9ca6dfc8d346fec
+  m_OcclusionCullingData: {fileID: 36300000, guid: ca7de55d9e2422c4fa430d2c353b7e30, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2fc3abaca5a4f14690c97434d1f57f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 0.0301
+  MoveSpeed: 0.036
   RotateSpeed: 0.675
   _forward: 119
   _backward: 115
